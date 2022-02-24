@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.002" height="3534.685" viewBox="0 0 1920.002 3534.685">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #003f7a;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#204989"/>
+      <stop offset="0.399" stop-color="#003f7a"/>
+      <stop offset="1" stop-color="#002d59"/>
+    </radialGradient>
+  </defs>
+  <g id="Raggruppa_487" data-name="Raggruppa 487" transform="translate(17387 -4325)">
+    <rect id="Rettangolo_756" data-name="Rettangolo 756" class="cls-1" width="1920" height="1076" transform="translate(-17387 4325)"/>
+    <path id="Tracciato_184" data-name="Tracciato 184" class="cls-2" d="M2674.372,302.489c-100.659,469.627-533.548,643.357-1156.792,426.06S754.372,534.531,754.372,534.531V1952.212h1920Z" transform="translate(-18141.371 4556.812)"/>
+    <path id="Tracciato_183" data-name="Tracciato 183" class="cls-3" d="M2674.372,302.489c-100.659,469.627-533.548,643.357-1156.792,426.06S754.372,534.531,754.372,534.531V2213.174h1920Z" transform="translate(-18141.371 5646.511)"/>
+  </g>
+</svg>
