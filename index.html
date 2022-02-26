@@ -6,22 +6,43 @@
     <link href='https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="UTF-8">
     <title>Pepsi - Surf the blue Wave</title>
 </head>
 
 <body>
-<!--NAVBAR-->
-<div class="navbar" id="myNavbar">
-    <a href="index.html"><img class="logo" src="logo/pepsi-logo.png" alt="Logo Pepsi" height="50px"></a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    <a href="">HOME</a>
-    <a href="">PRODOTTI</a>
-    <a href="">SOSTENIBILITÀ</a>
-    <a href="">MORE PEPSI</a>
-    <a href="">FAQ E SUPPORTO</a>
-</div>
+<!-- NAVBAR-->    
+    <header>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li><a href="/home">Home</a></li>
+              <li><a href="/products">Prodotti</a></li>
+              <li><a href="/about">Sostenibilità</a></li>
+              <li><a href="/login" >More Pepsi</a></li>
+              <li><a href="/signup">Faq e Supporto</a></li>
+            </ul>
+          </div>    
+       
+        <div id="navbar">
+        <a href="index.html"><img class="logo" src="logo/pepsi-logo.png" alt="Logo Pepsi" height="50px"></a>
+        </div>
+        
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Prodotti</a></li>
+            <li><a href="/">Sostenibilità</a></li>
+            <li><a href="/" >More Pepsi</a></li>
+            <li><a href="/">Faq e Supporto</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+<!-- AND NAVBAR-->
 
 <main>
     <div class="container-campagna">
@@ -121,7 +142,12 @@
 
 </html>
 
-<script>
+<script> 
+    function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');}
+    </script>
+    
+<!-- <script>
     function myFunction() {
       var x = document.getElementById("myNavbar");
       if (x.className === "navbar") {
@@ -131,4 +157,4 @@
       }
     }
     
-</script>
+</script> -->
