@@ -51,7 +51,7 @@ body {
 }
 
 .logo{
-    margin-right:20em;
+    margin-right:8em;
 }
 
 a { 
@@ -171,7 +171,7 @@ ul li:hover {
 
     #navbar{
         position: absolute;
-        left: 44%;
+        left: 46%;
     }
 
     #navbar-mobile{
