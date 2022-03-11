@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1836" viewBox="0 0 1920 1836">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_519" data-name="Rettangolo 519" width="1920" height="1048.787" fill="#d32f30"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Tracciato_89" data-name="Tracciato 89" d="M278.64,336.029,2088.117,0l-278.64,881.519L0,1217.549Z" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_460" data-name="Raggruppa 460" transform="translate(-7495.144 -2331)">
+    <rect id="Rettangolo_498" data-name="Rettangolo 498" width="1920" height="1235.772" transform="translate(7495.144 2331)" fill="#d32f30"/>
+    <rect id="Rettangolo_497" data-name="Rettangolo 497" width="1920" height="1139.764" transform="translate(7495.144 3027.236)" fill="#003f7a"/>
+    <g id="Gruppo_di_maschere_5" data-name="Gruppo di maschere 5" transform="translate(7495.144 2463.93)" clip-path="url(#clip-path)">
+      <g id="Raggruppa_173" data-name="Raggruppa 173" transform="translate(332.835 -522.303) rotate(21)">
+        <g id="Raggruppa_169" data-name="Raggruppa 169" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <path id="Tracciato_61" data-name="Tracciato 61" d="M925.322,875.9c136.556-41.883,272.778-85.958,406.778-139.723,177.518-71.227,335.905-156.05,460.032-264.6,117.218-102.512,181.682-202.087,194.289-298.745a187.736,187.736,0,0,0,1.829-33.073c-.1-2.16-.208-4.32-.3-6.491C1940.877,74.35,1866.771,29.062,1770.916,0c-162.659,210.343-391.776,406.769-685.189,589.439C803.9,764.9,495.167,908.617,166.546,1028c-50.549,18.363-101.5,35.37-152.235,53.115C8.2,1083.248,3.576,1084.324,0,1083.63c20.06,22.752,44.344,43.321,72.518,61.547,52.619-17.866,104.272-35.563,156.019-52.72,231.821-76.858,464.434-145.3,696.785-216.56" transform="translate(25.19 54.227)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

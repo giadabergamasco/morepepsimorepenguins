@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="stile.css" type="text/css">
+    <link rel="stylesheet" href="stilecampagna.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>Pepsi</title>
+</head>
+
+<body>
+<!-- NAVBAR-->    
+    <header>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li><a href="/home">Home</a></li>
+              <li><a href="/products">Prodotti</a></li>
+              <li><a href="/about">Sostenibilità</a></li>
+              <li><a href="/login" >More Pepsi</a></li>
+              <li><a href="/signup">Faq e Supporto</a></li>
+            </ul>
+          </div>    
+       
+        <div id="navbar">
+        <a href="index.html"><img class="logo" src="logo/pepsi-logo.png" alt="Logo Pepsi" height="50px"></a>
+        </div>
+        
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Prodotti</a></li>
+            <li><a href="/">Sostenibilità</a></li>
+            <li><a href="/" >More Pepsi</a></li>
+            <li><a href="/">Faq e Supporto</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+<!-- AND NAVBAR-->
+
+    <main>
+        <div class="container-campagna">
+            <div>
+                <h1>MORE PEPSI <br> MORE PENGUINS!</h1>
+                <h3>Vivi un’esperienza di AR con Pepsi!</h3>
+            </div>
+            <div>
+                <img class="image-responsive" src="images/pinguino-pepsi.png" alt="Pinguino campagna" height="700px">
+            </div>
+        </div>
+
+        <h3 id="titolo-istruzioni">Tocca uno dei modelli 3D di seguito su un iPhone o iPad <br> per visualizzare l’oggetto e posizionarlo in AR.</h3>
+
+        <div class="macrobox-ar">
+            <div><a  class="box-ar" rel="ar" href="_en.reality"><img class="image-model" src="ar/pinguino-one.png" alt="Pinguino in AR" height="300px"><div class="descrizione">Pinguino</div></a></div>
+            <div><a  class="box-ar" rel="ar" href="_en.reality"><img class="image-model" src="ar/pinguino-one.png" alt="Pinguino in AR" height="300px"><div class="descrizione">Pinguino</div></a></div>
+            <div><a  class="box-ar" rel="ar" href="_en.reality"><img class="image-model" src="ar/pinguino-one.png" alt="Pinguino in AR" height="300px"><div class="descrizione">Pinguino</div></a></div>
+        </div>
+       
+
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--FOOTER-->
+<footer>
+    <div class="container-social">
+        <div>
+            <p>Seguici sui nostri canali</p>
+            <img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px">
+            <img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px">
+        </div>
+    </div>
+
+    <div class="container-logo">
+        <div>
+            <img src="logo/pepsi-logo.png" alt="Logo Pepsi" height="100px">
+        </div>
+    </div>
+
+    <div class="container-footer">
+        <div>
+            <a href="">Privacy |</a>
+            <a href="">Contatti |</a>
+            <a href="">Supporto e Faq |</a>
+        </div>
+        <div>
+            <p>© 2021 Pepsico,Inc.</p>
+        </div>
+    </div>
+</footer>
+<footer class="footer-mobile">
+    <div class="container-social-mobile">
+        <img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px">
+        <img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px">
+    </div>
+
+    <div class="container-logo">
+        <img src="logo/pepsi-logo.png" alt="Logo Pepsi" height="100px">
+    </div>
+
+    <div class="container-footer-mobile">
+            <a href="">Privacy |</a>
+            <a href="">Contatti |</a>
+            <a href="">Supporto e Faq</a>
+    </div>
+    <div>
+        <p>© 2021 Pepsico,Inc.</p>
+    </div>
+</footer>
+<!-- AND FOOTER-->
+</body>
+</html>
+
+
+
+<script> 
+    function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');}
+    </script>
