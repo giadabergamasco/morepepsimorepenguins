@@ -338,7 +338,26 @@ footer p{
     }
     .titolo-desktop{display: none;}
     .titolo-responsive{display: inline-block;}
+    
+    /* PRODOTTI */
+    .container-prodotti{
+        
+    }
+    .mySlides {
+        /* display:none; */
 
+    }
+
+
+
+
+
+
+
+
+
+
+    /* FINE PRODOTTI */
 @media screen and (max-width: 600px) {
     footer{display: none;}
     .footer-mobile{display: inline-flex; padding:1em 2em 1em 2em;}
