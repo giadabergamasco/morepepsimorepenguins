@@ -3,7 +3,6 @@
 <html>
 <head>
     <link rel="stylesheet" href="stile.css" type="text/css">
-    <link rel="stylesheet" href="stilecampagna.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,9 +21,9 @@
             <ul class="mobile-menu">
               <li><a href="index.html">Home</a></li>
               <li><a href="prodotti.html">Prodotti</a></li>
-              <li><a href="">Sostenibilità</a></li>
+              <li><a href="/">Sostenibilità</a></li>
               <li><a href="campagna.html" >More Pepsi</a></li>
-              <li><a href="">Faq e Supporto</a></li>
+              <li><a href="/">Faq e Supporto</a></li>
             </ul>
           </div>    
        
@@ -44,58 +43,49 @@
         
       </header>
 <!-- AND NAVBAR-->
-
-    <main>
-        <div class="container-campagna">
-            <div>
-                <h1>MORE PEPSI <br> MORE PENGUINS!</h1>
-                <h3>Vivi un’esperienza di AR con Pepsi!</h3>
+<body>
+<main>
+    <div class="container-prodotti">
+    <div class="scrolling-wrapper">
+        <a href=""><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-max.png"></a>
+            <div class="text-prodotti"> 
+                <p class="titolo-prodotto">PEPSI MAX</p>
+                <p class="sottotitolo"></p>
             </div>
-            <div>
-                <img class="image-responsive" src="images/pinguino-pepsi.png" alt="Pinguino campagna" height="700px">
+        </div>
+        <a href=""><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-lime.png"></a>
+            <div class="text-prodotti"> 
+                <p class="titolo-prodotto">PEPSI MAX</p>
+                <p class="sottotitolo">LIME</p>
             </div>
         </div>
-
-        <h3 id="titolo-istruzioni">Tocca uno dei modelli 3D di seguito su un iPhone o iPad <br> per visualizzare l’oggetto e posizionarlo in AR.</h3>
-
-        <div class="macrobox-ar">
-            <div><a  class="box-ar" rel="ar" href="ar/prova.usdz"><img class="image-model" src="ar/pinguino-one.png" alt="Pinguino in AR" height="300px"><div class="descrizione">Pinguino</div></a></div>
-            <div><a  class="box-ar" rel="ar" href="ar/prova.usdz"><img class="image-model" src="ar/pinguino-one.png" alt="Pinguino in AR" height="300px"><div class="descrizione">Pinguino</div></a></div>
-            <div><a  class="box-ar" rel="ar" href="ar/hab_en.reality"><img class="image-model" src="ar/pinguino-one.png" alt="Pinguino in AR" height="300px"><div class="descrizione">Pinguino</div></a></div>
+        <a href=""><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-max-caf.png"></a>
+            <div class="text-prodotti"> 
+                <p class="titolo-prodotto">PEPSI MAX</p>
+                <p class="sottotitolo">ZERO CAFFEINA</p>
+            </div>
         </div>
-       
-        <!-- <div class="column large-4 medium-6 small-12 text-center">
-            <a rel="ar" href="/augmented-reality/quick-look/models/hab/hab_en.reality"><img class="image-model" src="/augmented-reality/quick-look/models/hab/hab.png" alt="" /><div class="block-link">The Hab</div></a>
-           </div> -->
+        <a href=""><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi.png"></a>
+            <div class="text-prodotti"> 
+                <p class="titolo-prodotto">PEPSI</p>
+                <p class="sottotitolo"></p>
+            </div>
         </div>
-    </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <a href=""><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-twist.png"></a>
+            <div class="text-prodotti"> 
+                <p class="titolo-prodotto">PEPSI</p>
+                <p class="sottotitolo">TWIST</p>
+            </div>
+        </div>
+        <a href=""><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-light.png"></a>
+            <div class="text-prodotti"> 
+                <p class="titolo-prodotto">PEPSI</p>
+                <p class="sottotitolo">LIGHT</p>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
 
 
 
@@ -151,7 +141,25 @@
 
 
 
-<script> 
+<!-- <script> 
     function toggleMobileMenu(menu) {
     menu.classList.toggle('open');}
-    </script>
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+}
+  x[slideIndex-1].style.display = "block";  
+}
+    </script> -->
