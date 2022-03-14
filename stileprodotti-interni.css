@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
 }
-
-body {
+body{background-image: none;}
+#pepsi-max {
     background-image: url("background/bg-black.svg");
     background-repeat:no-repeat;
     background-position: top center; 
+    padding-bottom: 10em;
 }
 
 h1{
@@ -144,10 +145,11 @@ table tr td:last-child {
 
 
 @media screen and (max-width: 600px) {
-    body {
+    #pepsi-max {
         background-image: url("background/bg-black-mobile.svg");
         background-repeat:no-repeat;
         background-position: top center; 
+        padding-bottom: 5em;
     }
     div.column-second {order: 1;}
     div.column-first {order: 2;}
@@ -164,7 +166,7 @@ table tr td:last-child {
     .box-nutrizionale{
         display: flex;
         flex-wrap: wrap;
-        padding-top:5em;
+        padding-top:4em;
     }
     .column-first{
         width: 100%;
