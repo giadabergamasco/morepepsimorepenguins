@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="801.75" height="1015.231" viewBox="0 0 801.75 1015.231">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.515" cy="0.169" r="0.662" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4d4947" stop-opacity="0.949"/>
+      <stop offset="0.498" stop-color="#332f2c"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g id="Raggruppa_501" data-name="Raggruppa 501" transform="translate(8974.875 -2992.414)">
+    <path id="Intersezione_13" data-name="Intersezione 13" d="M98.68,432.18V82.647C162.1,35.747,250.815,6.606,349,6.606S535.907,35.748,599.323,82.648v349.53C535.907,479.078,447.186,508.22,349,508.22S162.1,479.079,98.68,432.18Z" transform="translate(-8923 3499.424)" fill="url(#radial-gradient)"/>
+    <path id="Tracciato_190" data-name="Tracciato 190" d="M0-432.323H801.75V432.1H0Z" transform="translate(-8974.875 3424.737)" fill="url(#radial-gradient)"/>
+  </g>
+</svg>

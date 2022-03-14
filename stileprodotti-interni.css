@@ -8,6 +8,12 @@ body{background-image: none;}
     background-position: top center; 
     padding-bottom: 10em;
 }
+#pepsi-max-lime {
+    background-image: url("background/bg-green.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+    padding-bottom: 10em;
+}
 
 h1{
     font-size: 3.5em;
@@ -151,6 +157,13 @@ table tr td:last-child {
         background-position: top center; 
         padding-bottom: 5em;
     }
+    #pepsi-max-lime {
+        background-image: url("background/bg-green-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 5em;
+    }
+
     div.column-second {order: 1;}
     div.column-first {order: 2;}
     div.column-left {order: 3;}
@@ -171,6 +184,7 @@ table tr td:last-child {
     .column-first{
         width: 100%;
         text-align: center;
+        padding-top:2em;
     }
     .column-left, .column-right{
         width: 85%;
@@ -183,9 +197,11 @@ table tr td:last-child {
     }
     h3{
         text-align:center;
+        padding-top:5em;
     }
     h4{
         font-size: 1.2em;
+        padding-bottom:1em;
     }
     .container-prodotti{
         margin:0;
