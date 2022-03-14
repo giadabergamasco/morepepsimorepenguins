@@ -14,6 +14,12 @@ body{background-image: none;}
     background-position: top center; 
     padding-bottom: 10em;
 }
+#pepsi-max-cafe {
+    background-image: url("background/bg-brown.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+    padding-bottom: 10em;
+}
 
 h1{
     font-size: 3.5em;
@@ -35,6 +41,7 @@ h4{
     font-size: 1.4em;
     font-family:Montserrat;
     margin:0;
+    padding-bottom:1em;
     color:var(--blueTitoli)
 }
 
@@ -54,6 +61,8 @@ h4{
 }
 .column-left{
     width:40%;
+    flex-direction: column-reverse;
+    align-items: flex-end;
 }
 
 .box-ingredienti{
@@ -63,9 +72,13 @@ h4{
 
 #ingredienti{
     font-size:20px;
-    color:var(--blueTitoli)
+    color:var(--blueTitoli);
+    margin:0;
 }
-
+.formati{
+    flex-direction: column;
+    align-items: flex-end;
+}
 .container-campagna{
     width: 100%;
     display: flex;
@@ -99,7 +112,6 @@ h4{
 .text-prodotti{
     padding: 0em;
 }
-
 .titolo-prodotto{
     padding-top: 1.5em;
     margin: 0;
@@ -117,6 +129,8 @@ h4{
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
 }
+
+
 
 /* TABLE */
 strong {
@@ -163,6 +177,12 @@ table tr td:last-child {
         background-position: top center; 
         padding-bottom: 5em;
     }
+    #pepsi-max-cafe{
+        background-image: url("background/bg-brown-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 5em;
+    }
 
     div.column-second {order: 1;}
     div.column-first {order: 2;}
@@ -201,7 +221,6 @@ table tr td:last-child {
     }
     h4{
         font-size: 1.2em;
-        padding-bottom:1em;
     }
     .container-prodotti{
         margin:0;
