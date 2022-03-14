@@ -20,6 +20,12 @@ body{background-image: none;}
     background-position: top center; 
     padding-bottom: 10em;
 }
+#pepsi{
+    background-image: url("background/bg-blue.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+    padding-bottom: 10em;
+}
 
 h1{
     font-size: 3.5em;
@@ -169,19 +175,25 @@ table tr td:last-child {
         background-image: url("background/bg-black-mobile.svg");
         background-repeat:no-repeat;
         background-position: top center; 
-        padding-bottom: 5em;
+        padding-bottom: 10em;
     }
     #pepsi-max-lime {
         background-image: url("background/bg-green-mobile.svg");
         background-repeat:no-repeat;
         background-position: top center; 
-        padding-bottom: 5em;
+        padding-bottom: 10em;
     }
     #pepsi-max-cafe{
         background-image: url("background/bg-brown-mobile.svg");
         background-repeat:no-repeat;
         background-position: top center; 
-        padding-bottom: 5em;
+        padding-bottom: 10em;
+    }
+    #pepsi{
+        background-image: url("background/bg-blue-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
     }
 
     div.column-second {order: 1;}
