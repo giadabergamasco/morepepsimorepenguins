@@ -5,6 +5,7 @@
 body {
     background-image: url("background/bg-black.svg");
     background-repeat:no-repeat;
+    background-position: top center; 
 }
 
 h1{
@@ -139,3 +140,65 @@ table tr td:last-child {
     border-bottom-right-radius: 15px;
 }
 /* AND TABLE */
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: url("background/bg-black-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+    }
+    div.column-second {order: 1;}
+    div.column-first {order: 2;}
+    div.column-left {order: 3;}
+    div.column-right{order: 4;}
+
+    .container-campagna{
+        padding:2em;
+    }
+    .image-responsive{
+        width: 100%;
+        margin:0;
+    }
+    .box-nutrizionale{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top:5em;
+    }
+    .column-first{
+        width: 100%;
+        text-align: center;
+    }
+    .column-left, .column-right{
+        width: 85%;
+    }
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size:1.5em;
+    }
+    h3{
+        text-align:center;
+    }
+    h4{
+        font-size: 1.2em;
+    }
+    .container-prodotti{
+        margin:0;
+        width: 100%;
+        position: relative;
+        left:-10px;
+    }
+    .card-prodotti{       
+        margin: 2em;
+        /* padding-right: 4em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formati{
+        padding-bottom: 5em;
+    }
+}
