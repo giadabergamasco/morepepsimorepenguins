@@ -26,6 +26,18 @@ body{background-image: none;}
     background-position: top center; 
     padding-bottom: 10em;
 }
+#pepsi-twist{
+    background-image: url("background/bg-yellow.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+    padding-bottom: 10em;
+}
+#pepsi-light{
+    background-image: url("background/bg-gray.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+    padding-bottom: 10em;
+}
 
 h1{
     font-size: 3.5em;
@@ -50,7 +62,24 @@ h4{
     padding-bottom:1em;
     color:var(--blueTitoli)
 }
-
+.contenitore-porzione{
+    display: flex;
+    position: absolute;
+    top:550px;
+    right: 0px;
+}
+.box-porzione{
+    background-color: var(--blueTitoli);
+    width:160px;
+    height:100px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+#size{
+    color: var(--white);
+    padding:1em 0 0 0;
+}
 
 .box-nutrizionale{
     display: flex;
@@ -195,7 +224,19 @@ table tr td:last-child {
         background-position: top center; 
         padding-bottom: 10em;
     }
-
+    #pepsi-twist{
+        background-image: url("background/bg-yellow-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    #pepsi-light{
+        background-image: url("background/bg-gray-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    .contenitore-porzione{display: none;}
     div.column-second {order: 1;}
     div.column-first {order: 2;}
     div.column-left {order: 3;}
