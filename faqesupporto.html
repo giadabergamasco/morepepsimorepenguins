@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="stile.css" type="text/css">
+    <link rel="stylesheet" href="stilefaq.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>Pepsi</title>
+</head>
+
+<body>
+<!-- NAVBAR-->    
+    <header>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="prodotti.html">Prodotti</a></li>
+              <li><a href="">Sostenibilità</a></li>
+              <li><a href="campagna.html" >More Pepsi</a></li>
+              <li><a href="">Faq e Supporto</a></li>
+            </ul>
+          </div>    
+       
+        <div id="navbar">
+        <a href="index.html"><img class="logo" src="logo/pepsi-logo.png" alt="Logo Pepsi" height="50px"></a>
+        </div>
+        
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="prodotti.html">Prodotti</a></li>
+            <li><a href="">Sostenibilità</a></li>
+            <li><a href="campagna.html" >More Pepsi</a></li>
+            <li><a href="">Faq e Supporto</a></li>
+          </ul>
+        </nav>
+        
+      </header>
+<!-- AND NAVBAR-->
+
+<main>
+    <div class="titolo-faq">
+        <h4>FAQ E SUPPORTO</h4>
+        <h2>Come possiamo aiutarti?</h2>
+    </div>
+
+
+<!-- SLIDES FAQ-->
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="box-faq">
+        <h5>DOMANDE FREQUENTI</h5>
+        <img src="images/logoelinea.png" height="40px">
+        <h4>I PRODOTTI PEPSI POSSONO ESSERE CONSUMATI DA VEGETARIANI/VEGANI?</h4>
+        <p id="risposta">I nostri prodotti possono essere consumati sia da vegani che vegetariani.</p>
+    </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="box-faq">
+                <h5>DOMANDE FREQUENTI</h5>
+                <div><img src="images/logoelinea.png" height="40px"></div>
+                <h4>I PRODOTTI PEPSI CONTENGONO ALCOL?</h4>
+                <p id="risposta">Il portfolio prodotti Pepsi è composto da bevande non alcoliche. Non aggiungiamo alcol nelle bevande Pepsi.</p>
+            </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="box-faq">
+                <h5>DOMANDE FREQUENTI</h5>
+                <img src="images/logoelinea.png" height="40px">
+                <h4>QUANTA CAFFEINA CONTENGONO I PRODOTTI PEPSI?</h4>
+                <p id="risposta">Il portfolio Pepsi contiene bassi livelli di caffeina ma per coloro che cercano di non assumerla completamente, consigliamo di provare Pepsi MAX Zero Caffeina.</p>
+            </div>
+    </div>
+    <div class="mySlides fade">
+        <div class="box-faq">
+                  <h5>DOMANDE FREQUENTI</h5>
+                  <img src="images/logoelinea.png" height="40px">
+                  <h4>IL MIO PRODOTTO È SCADUTO, COSA DOVREI FARE?</h4>
+                  <p id="risposta">Tutti i nostri prodotti riportano il termine minimo di conservazione entro la quale si conservano le caratteristiche organolettiche e gustative, o nutrizionali, del prodotto, senza comportare rischi per la salute in caso di superamento seppur limitato della stessa, alla condizione che 
+                    il prodotto sia stato conservato correttamente. Nel caso il prodotto venga acquistato oltre il termine minimo di conservazione, ti suggeriamo di portare indietro la bevanda al rivenditore.</p>
+              </div>
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="contenitore-dot">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+        <span class="dot" onclick="currentSlide(4)"></span> 
+      </div> 
+    </div>
+<!-- AND SLIDES FAQ-->
+
+<h3>Se non hai trovato quello che stavi cercando chiama il nostro Servizio Consumatori al 800.132.340, dal lunedì al venerdì dalle ore 9:00 alle ore 13:00 e dalle ore 14:00 alle ore 18:00.</h3>
+</main>  
+
+
+
+
+
+
+<!--FOOTER-->
+<footer>
+    <div class="container-social">
+        <div>
+            <p>Seguici sui nostri canali</p>
+            <img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px">
+            <img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px">
+        </div>
+    </div>
+
+    <div class="container-logo">
+        <div>
+            <img src="logo/pepsi-logo.png" alt="Logo Pepsi" height="100px">
+        </div>
+    </div>
+
+    <div class="container-footer">
+        <div>
+            <a href="">Privacy |</a>
+            <a href="">Contatti |</a>
+            <a href="">Supporto e Faq |</a>
+        </div>
+        <div>
+            <p>© 2021 Pepsico,Inc.</p>
+        </div>
+    </div>
+</footer>
+<footer class="footer-mobile">
+    <div class="container-social-mobile">
+        <img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px">
+        <img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px">
+    </div>
+
+    <div class="container-logo">
+        <img src="logo/pepsi-logo.png" alt="Logo Pepsi" height="100px">
+    </div>
+
+    <div class="container-footer-mobile">
+            <a href="">Privacy |</a>
+            <a href="">Contatti |</a>
+            <a href="">Supporto e Faq</a>
+    </div>
+    <div>
+        <p>© 2021 Pepsico,Inc.</p>
+    </div>
+</footer>
+<!-- AND FOOTER-->
+</body>
+</html>
+
+
+
+<script> 
+    function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');}
+    </script>
+
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+</script>

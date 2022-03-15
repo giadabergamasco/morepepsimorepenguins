@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background/bg-faq.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+}
+h2, h4, h5, #risposta {
+    color: var(--blueTitoli);
+}
+h3{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 4em 10em 2em 10em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:5em 0 3em 0;
+}
+.titolo-faq{
+    text-align: center;
+    padding-top:2em;
+}
+.box-faq{
+    padding:3em;
+    margin-top:2em;
+    width:600px;
+    height: 700px;
+    background-color: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#risposta{
+    padding: 0 3em;
+    font-family: Avenir Next;
+    /* text-align: justify; */
+}
+
+
+
+.mySlides {display: none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: var(--bluePulsanti);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: var(--bluePulsanti);
+  color:white;
+}
+
+/* The dots/bullets/indicators */
+.contenitore-dot{
+    text-align: center;
+    position: relative;
+    top:-60px
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--lightBlueTable);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: var(--darkBlueTable);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+}
