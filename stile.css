@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+
 }
 :root{
     --white:white;
@@ -403,6 +404,6 @@ footer p{
         margin:0.2em;}
     footer a {padding:0}
     footer p {padding: 0.8em;}
-  }
 
 }
+
