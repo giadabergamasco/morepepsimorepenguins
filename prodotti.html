@@ -45,9 +45,9 @@
 <!-- AND NAVBAR-->
 <body>
 <main>
-    <div class="container-prodotti">
-    <div class="scrolling-wrapper">
-        <a href="pepsimax.html"><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-max.png" alt="Pepsi Max"></a>
+    <div id="menu">
+        <div class="scrolling-wrapper">
+                    <a href="pepsimax.html"><div class="card-prodotti"><img height= 400px class="image-menu" src="prodotti-images/pepsi-max.png" alt="Pepsi Max"></a>
             <div class="text-prodotti"> 
                 <p class="titolo-prodotto">PEPSI MAX</p>
                 <p class="sottotitolo"></p>
@@ -85,6 +85,11 @@
         </div>
     </div>
 </div>
+<div id="nav">
+    <div id="prev">&#10094;</div>
+    <div id="next">&#10095;</div>
+  </div>
+
 </main>
 
 
@@ -140,26 +145,17 @@
 </html>
 
 
-
-<!-- <script> 
-    function toggleMobileMenu(menu) {
-    menu.classList.toggle('open');}
-
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-
-    function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-}
-  x[slideIndex-1].style.display = "block";  
-}
-    </script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$('#prev').on('click', function() {
+    $('#menu div').animate({
+      scrollLeft: '-=100'
+    }, 300, 'swing');
+  });
+  
+  $('#next').on('click', function() {
+    $('#menu div').animate({
+      scrollLeft: '+=100'
+    }, 300, 'swing');
+  });
+</script>
