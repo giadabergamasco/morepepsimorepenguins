@@ -3,6 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="stile.css" type="text/css">
+    <link rel="stylesheet" href="stileprodotti.css" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,17 +92,58 @@
     <div id="next">&#10095;</div>
   </div>
 
+
+<!-- MENU MOBILE-->
+<div id="menu-mobile">
+    <div id="prodotti-mobile">
+        <a href="pepsimax.html"><div class="card-prodotti"><img height= 200px class="image-menu" src="prodotti-images/pepsi-max.png" alt="Pepsi Max"></a>
+        <div class="text-prodotti"> 
+            <p class="titolo-prodotto">PEPSI MAX</p>
+            <p class="sottotitolo"></p>
+        </div>
+    </div>
+    <a href="pepsimaxlime.html"><div class="card-prodotti"><img height= 200px class="image-menu" src="prodotti-images/pepsi-lime.png" alt="Pepsi Max Lime"></a>
+        <div class="text-prodotti"> 
+            <p class="titolo-prodotto">PEPSI MAX</p>
+            <p class="sottotitolo">LIME</p>
+        </div>
+    </div>
+    <a href="pepsimaxcafe.html"><div class="card-prodotti"><img height= 200px class="image-menu" src="prodotti-images/pepsi-max-caf.png" alt="Pepsi Max Caffeina"></a>
+        <div class="text-prodotti"> 
+            <p class="titolo-prodotto">PEPSI MAX</p>
+            <p class="sottotitolo">ZERO CAFFEINA</p>
+        </div>
+    </div>
+    <a href="pepsi.html"><div class="card-prodotti"><img height= 200px class="image-menu" src="prodotti-images/pepsi.png" alt="Pepsi"></a>
+        <div class="text-prodotti"> 
+            <p class="titolo-prodotto">PEPSI</p>
+            <p class="sottotitolo"></p>
+        </div>
+    </div>
+    <a href="pepsitwist.html"><div class="card-prodotti"><img height= 200px class="image-menu" src="prodotti-images/pepsi-twist.png" alt="Pepsi Twist"></a>
+        <div class="text-prodotti"> 
+            <p class="titolo-prodotto">PEPSI</p>
+            <p class="sottotitolo">TWIST</p>
+        </div>
+    </div>
+    <a href="pepsitlight.html"><div class="card-prodotti"><img height= 200px class="image-menu" src="prodotti-images/pepsi-light.png" alt="Pepsi Light"></a>
+        <div class="text-prodotti"> 
+            <p class="titolo-prodotto">PEPSI</p>
+            <p class="sottotitolo">LIGHT</p>
+        </div>
+    </div>
+</div>
+</div>
+
 </main>
-
-
 
 <!--FOOTER-->
 <footer>
     <div class="container-social">
         <div>
             <p>Seguici sui nostri canali</p>
-            <img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px">
-            <img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px">
+            <a href="https://www.facebook.com/pepsi" id="a-social"><img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px"></a>
+            <a href="https://www.instagram.com/pepsi/"id="a-social"><img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px"></a>
         </div>
     </div>
 
@@ -113,9 +155,9 @@
 
     <div class="container-footer">
         <div>
-            <a href="">Privacy |</a>
-            <a href="">Contatti |</a>
-            <a href="">Supporto e Faq |</a>
+            <a href="https://pepsicoprivacypolicy.com/it">Privacy &nbsp &nbsp|&nbsp &nbsp</a>
+            <a href="http://www.pepsico.co.it/pepsico-home/contatto">Contatti &nbsp &nbsp|&nbsp &nbsp</a>
+            <a href="faqesupporto.html">Supporto e Faq </a>
         </div>
         <div>
             <p>© 2021 Pepsico,Inc.</p>
@@ -124,8 +166,8 @@
 </footer>
 <footer class="footer-mobile">
     <div class="container-social-mobile">
-        <img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px">
-        <img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px">
+        <a href="https://www.facebook.com/pepsi" id="a-social"><img id="social" src="images/icon-facebook.png" alt="Icona Facebook" height="30px"></a>
+        <a href="https://www.instagram.com/pepsi/"id="a-social"><img id="social"src="images/icon-instagram.png" alt="Icona Instagram" height="30px"></a>
     </div>
 
     <div class="container-logo">
@@ -133,9 +175,9 @@
     </div>
 
     <div class="container-footer-mobile">
-            <a href="">Privacy |</a>
-            <a href="">Contatti |</a>
-            <a href="">Supporto e Faq</a>
+            <a href="https://pepsicoprivacypolicy.com/it">Privacy &nbsp|&nbsp</a>
+            <a href="http://www.pepsico.co.it/pepsico-home/contatto">Contatti &nbsp|&nbsp</a>
+            <a href="faqesupporto.html">Supporto e Faq</a>
     </div>
     <div>
         <p>© 2021 Pepsico,Inc.</p>
@@ -145,18 +187,22 @@
 </body>
 </html>
 
+<script> 
+    function toggleMobileMenu(menu) {
+    menu.classList.toggle('open');}
+</script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
 $('#prev').on('click', function() {
     $('#menu div').animate({
-      scrollLeft: '-=100'
+      scrollLeft: '-=300'
     }, 300, 'swing');
   });
   
   $('#next').on('click', function() {
     $('#menu div').animate({
-      scrollLeft: '+=100'
+      scrollLeft: '+=300'
     }, 300, 'swing');
   });
 </script>

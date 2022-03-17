@@ -1,0 +1,129 @@
+
+/* PAGINA PRODOTTI */
+body {
+    background-image: url("background/bg-prodotti.svg");
+    background-repeat:no-repeat;
+    background-position: top center; 
+}
+
+#menu{
+    display:flex;
+    margin:5em;
+    justify-content: center;
+}
+.scrolling-wrapper{
+    width: 1200px;;
+    display: flex;
+    overflow-x: auto;
+}
+
+.card-prodotti{
+    width: 300px;
+    /* flex: 0 0 auto; */
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-prodotti{
+    padding: 0em 1em;
+}
+
+.titolo-prodotto{
+    font-family: Montserrat;
+    padding-top: 1.5em;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+.sottotitolo{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+#nav{
+    display: flex;
+}
+/* Next & previous buttons */
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+/* Position the "next button" to the right */
+#next {
+    right: 50px;
+}
+#prev {
+    left: 50px;
+}
+  
+.scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+#menu-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#prodotti-mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url("background/bg-prodotti-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+    }
+    #menu, #nav{display: none}
+    main{
+        padding: 6em 0em;
+    }
+    .card-prodotti{
+        padding:1em;
+        width: 150px;
+    }
+    #prodotti-mobile{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .titolo-prodotto, .sottotitolo{
+       font-size: 14px; 
+    }
+
+}
+
+/* HOVER SOLO PER DESKTOP */
+@media screen and (min-width: 1024px) {
+    .card-prodotti:hover {
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width:601px) {
+    /* #prev , #next{
+        position: absolute;
+        top:25%;
+    } */
+}
