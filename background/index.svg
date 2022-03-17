@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920.002" height="3665.917" viewBox="0 0 1920.002 3665.917">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#204989"/>
+      <stop offset="0.399" stop-color="#003f7a"/>
+      <stop offset="1" stop-color="#002d59"/>
+    </radialGradient>
+  </defs>
+  <g id="Raggruppa_541" data-name="Raggruppa 541" transform="translate(17921 -4325)">
+    <rect id="Rettangolo_807" data-name="Rettangolo 807" width="1920" height="1076" transform="translate(-17921 4325)" fill="url(#radial-gradient)"/>
+    <path id="Tracciato_235" data-name="Tracciato 235" d="M2674.372,302.489c-100.659,469.627-533.548,643.357-1156.792,426.06S754.372,534.531,754.372,534.531V1952.212h1920Z" transform="translate(-18675.371 4556.812)" fill="#fff"/>
+    <path id="Tracciato_234" data-name="Tracciato 234" d="M2674.372,302.489c-100.659,469.627-533.548,643.357-1156.792,426.06S754.372,534.531,754.372,534.531V2344.407h1920Z" transform="translate(-18675.371 5646.511)" fill="#003f7a"/>
+  </g>
+</svg>
