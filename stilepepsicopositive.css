@@ -26,9 +26,11 @@ h2{
     text-align: center;
 }
 h3{
+    font-size: 1.8em;
     text-align: center;
     color: var(--blueTitoli);
     padding:1em 1em 1.5em 1em;
+    font-weight: 600;
 }
 h4{
     font-size: 1.4em;
@@ -44,7 +46,7 @@ h4{
 }
 #descrizione-pep-blue{
     font-family: Avenir Next;
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 1em;
     color: var(--blueTitoli);
 }
@@ -55,7 +57,7 @@ h4{
 }
 #descrizione-pep{
     font-family: Avenir Next;
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 1em;
     color:var(--white)
 }
@@ -85,6 +87,38 @@ section{
     flex-direction: column;
 }
 
+@media screen and (max-width: 600px) {
+    body{
+        background-image: url("background/bg-sostenibilita-mobile.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+    }
+    main{
+        padding: 22em 0em 10em 0em;
+    }
+    #gif-responsive{
+        width: 80%;
+        height: auto;
+        margin:0 3em;
+    }
+    h2 {
+        font-size: 1.5em;
+        padding: 3em 2em;
+        text-align: center;
+    }
+    .strip{
+        width: 100%;
+    }
+    #title-pep-blue, #title-pep {
+        font-size: 0.8em;
+        padding:0;
+    }
+    #descrizione-pep-blue,  #descrizione-pep{
+        font-family: Avenir Next;
+        font-size: 14px;
+        padding-top: 0.5em;
+    }
+}
 
 @media (max-width: 900px){
     section h1{
