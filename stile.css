@@ -16,7 +16,7 @@
 }
 
 /* HEADING */
-h1{font-size: 4em; font-family: Montserrat;}
+h1{font-size: 3.5em; font-family: Montserrat;}
 h2{font-size: 2.5em;font-family: Montserrat;}
 h3{font-size: 1.5em}
 h4{font-size: 1.2em}
@@ -69,6 +69,7 @@ a {
 header a {
   text-decoration: none;
   font-family: Montserrat;
+  font-size: 14px;
 }
 
 header {
@@ -92,6 +93,7 @@ header {
 
 ul {
   list-style: none;
+  display: inline-block;
   height: 100%;
   display: flex;
   align-items: center;
@@ -159,7 +161,7 @@ ul li:hover {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 810px) {
     header nav {
         display: none;
     }
@@ -178,7 +180,7 @@ ul li:hover {
 
     #navbar{
         position: absolute;
-        left: 44%;
+        left: 45%;
     }
 
     #navbar-mobile{
@@ -308,7 +310,7 @@ footer p{
 .footer-mobile{
     width:100%;
     background-color:var(--blueDark);
-    padding:2em 2em 1em 2em;
+    padding:2em 1em 1em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +367,7 @@ footer p{
 /* se la finestra è 600px o è più piccola fai: */
 @media screen and (max-width: 600px) {
     footer{display: none;}
-    .footer-mobile{display: inline-flex; padding:1em 2em 1em 2em;}
+    .footer-mobile{display: inline-flex; padding:1em;}
     #social {
         padding:0;
         margin:0.2em;}
