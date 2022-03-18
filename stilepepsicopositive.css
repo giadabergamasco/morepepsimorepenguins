@@ -69,6 +69,7 @@ h4{
 }
 section{
   /* min-height: 100vh; */
+  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,6 +122,15 @@ section{
         font-family: Avenir Next;
         font-size: 14px;
         padding-top: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width:601px) {
+    .strip{
+        width: 100%;
+    }
+    h2{
+        padding:0 1em;
     }
 }
 
