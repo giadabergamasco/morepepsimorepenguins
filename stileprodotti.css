@@ -47,9 +47,6 @@ body {
     margin: 0.5em 0;
 }
 
-#nav{
-    display: flex;
-}
 /* Next & previous buttons */
 #prev, #next {
     cursor: pointer;
@@ -61,7 +58,7 @@ body {
     color: white;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.6s ease;
+    /* transition: 0.6s ease; */
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
@@ -133,7 +130,7 @@ body {
     /* #next, #prev{display: none} */
     #menu{
         width: 80%;
-        padding: 5em 1em;
+        padding: 5em em;
     }
     .card-prodotti{
         padding:3em;

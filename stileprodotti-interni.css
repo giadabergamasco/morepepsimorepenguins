@@ -202,6 +202,9 @@ table tr td:last-child {
 }
 /* AND TABLE */
 
+main{
+    padding:2em 0em 10em 0em;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -271,7 +274,7 @@ table tr td:last-child {
         display: flex;
         flex-direction: column;
         /* align-items: flex-start; */
-        margin:2em;
+        margin:1em;
     }
     h1{
         font-size: 2em;
@@ -305,11 +308,9 @@ table tr td:last-child {
     }
     /* td{padding:0.8em} */
 }
-main{
-    padding:2em 0em 10em 0em;
-}
 
-@media only screen and (max-width: 1000px) and (min-width:599px) {
+
+@media only screen and (max-width: 1000px) and (min-width:600px) {
     div.column-second {order: 1;}
     div.column-first {order: 2;}
     div.column-left {order: 3;}
@@ -370,4 +371,3 @@ main{
         width:60%;
     }
 }
-
