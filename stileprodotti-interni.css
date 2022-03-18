@@ -24,7 +24,7 @@ body{background-image: none;}
     background-image: url("background/bg-blue.svg");
     background-repeat:no-repeat;
     background-position: top center; 
-    padding-bottom: 10em;
+    padding-bottom: 20em;
 }
 #pepsi-twist{
     background-image: url("background/bg-yellow.svg");
@@ -165,6 +165,11 @@ h4{
     transform: scale(1.2); 
 }
 
+.image-formati-responsive{
+    width: 100%;
+    height: auto;
+    margin:0;
+}
 
 
 /* TABLE */
@@ -204,7 +209,7 @@ table tr td:last-child {
         background-image: url("background/bg-black-mobile.svg");
         background-repeat:no-repeat;
         background-position: top center; 
-        padding-bottom: 10em;
+        padding-bottom: 20em;
     }
     #pepsi-max-lime {
         background-image: url("background/bg-green-mobile.svg");
@@ -247,8 +252,10 @@ table tr td:last-child {
     }
     .image-responsive{
         width: 100%;
+        height: auto;
         margin:0;
     }
+    
     .box-nutrizionale{
         display: flex;
         flex-wrap: wrap;
@@ -260,7 +267,11 @@ table tr td:last-child {
         padding-top:2em;
     }
     .column-left, .column-right{
-        width: 85%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        margin:2em;
     }
     h1{
         font-size: 2em;
@@ -274,15 +285,16 @@ table tr td:last-child {
     }
     h4{
         font-size: 1.2em;
+        text-align: left;
     }
     .container-prodotti{
         margin:0;
         width: 100%;
         position: relative;
-        left:-10px;
+        /* left:-10px; */
     }
     .card-prodotti{       
-        margin: 2em;
+        margin: 1.6em;
         /* padding-right: 4em; */
         display: flex;
         flex-direction: column;
@@ -291,4 +303,71 @@ table tr td:last-child {
     .formati{
         padding-bottom: 5em;
     }
+    /* td{padding:0.8em} */
 }
+main{
+    padding:2em 0em 10em 0em;
+}
+
+@media only screen and (max-width: 1000px) and (min-width:599px) {
+    div.column-second {order: 1;}
+    div.column-first {order: 2;}
+    div.column-left {order: 3;}
+    div.column-right{order: 4;}
+
+    #pepsi{
+        background-image: url("background/bg-blue-ipad.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    .image-responsive{
+        width: 100%;
+        height: auto;
+        margin:0;
+        position: initial;
+    }
+    .container-campagna{
+        padding:2em;
+    }
+    .box-nutrizionale{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top:4em;
+    }
+    .column-first{
+        width: 100%;
+        text-align: center;
+        padding-top:2em;
+    }
+    .column-left, .column-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin:3em;
+    }
+    h3{
+        text-align: center;
+        font-size: 1.5em;
+        padding-top: 8em;
+    }
+    .container-prodotti{
+        margin:0;
+        width: 100%;
+        justify-content: center;
+    }
+    .card-prodotti{       
+        margin: 1.6em;
+        /* padding-right: 4em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formati{
+        padding-bottom: 5em;
+    }
+    .scrolling-wrapper{
+        width:60%;
+    }
+}
+

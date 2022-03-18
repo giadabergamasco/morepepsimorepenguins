@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="478.031" height="1007.614" viewBox="0 0 478.031 1007.614">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="832.651" height="1007.614" viewBox="0 0 832.651 1007.614">
   <defs>
     <radialGradient id="radial-gradient" cx="0.5" cy="0.345" r="0.662" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#036cd1" stop-opacity="0.851"/>
@@ -6,5 +6,5 @@
       <stop offset="1" stop-color="#02305c"/>
     </radialGradient>
   </defs>
-  <path id="Unione_27" data-name="Unione 27" d="M0,901.69V0H478.031V901.691c-46.108,63.1-135.857,105.923-239.015,105.923S46.108,964.791,0,901.69Z" fill="url(#radial-gradient)"/>
+  <path id="Unione_46" data-name="Unione 46" d="M-177.311,1037.617V808.567h0V155.214H655.341v742.04h0v140.362c-80.312,74.591-236.641,125.211-416.326,125.211S-97,1112.207-177.311,1037.617Z" transform="translate(177.311 -155.214)" fill="url(#radial-gradient)"/>
 </svg>
