@@ -7,8 +7,9 @@ body {
 }
 
 #menu{
+    width: 100%;
     display:flex;
-    margin:5em;
+    margin:5em 0em;
     justify-content: center;
 }
 .scrolling-wrapper{
@@ -51,11 +52,11 @@ body {
 /* Next & previous buttons */
 #prev, #next {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
+    /* position: absolute;
+    top: 50%; */
+    /* width: auto; */
+    padding: 1em;
+    /* margin-top: -22px; */
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -65,13 +66,18 @@ body {
   }
   
 /* Position the "next button" to the right */
-#next {
+/* #next {
     right: 50px;
 }
 #prev {
     left: 50px;
+} */
+.allineamento-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-  
+
 .scrolling-wrapper::-webkit-scrollbar {
     display: none;
 }
@@ -93,7 +99,8 @@ body {
         background-repeat:no-repeat;
         background-position: top center; 
     }
-    #menu, #nav{display: none}
+    .allineamento-arrow, #next, #prev{display: none}
+
     main{
         padding: 6em 0em;
     }
@@ -121,9 +128,12 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) and (min-width:601px) {
-    /* #prev , #next{
-        position: absolute;
-        top:25%;
-    } */
+@media only screen and (max-width: 1200px) and (min-width:601px) {
+    #next, #prev{display: none}
+    #menu{
+        padding: 5em 2em;
+    }
+    .card-prodotti{
+        padding:3em;
+    }
 }
