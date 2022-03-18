@@ -7,13 +7,14 @@ body {
 }
 
 #menu{
-    width: 100%;
+    /* width: 100%; */
     display:flex;
     margin:5em 0em;
     justify-content: center;
 }
 .scrolling-wrapper{
-    width: 1200px;;
+    width: 1200px;
+
     display: flex;
     overflow-x: auto;
 }
@@ -66,12 +67,12 @@ body {
   }
   
 /* Position the "next button" to the right */
-/* #next {
-    right: 50px;
+#next {
+    padding-left:1em
 }
 #prev {
-    left: 50px;
-} */
+    padding-right:1em;
+}
 .allineamento-arrow{
     display: flex;
     justify-content: center;
@@ -129,9 +130,10 @@ body {
 }
 
 @media only screen and (max-width: 1200px) and (min-width:601px) {
-    #next, #prev{display: none}
+    /* #next, #prev{display: none} */
     #menu{
-        padding: 5em 2em;
+        width: 80%;
+        padding: 5em 1em;
     }
     .card-prodotti{
         padding:3em;
