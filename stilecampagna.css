@@ -4,7 +4,7 @@
 
 body {
     background-image: url("background/bg-campagna.svg");
-    background-repeat:no-repeat;ù
+    background-repeat:no-repeat;
     background-position: top center; 
 }
 .container-campagna{
@@ -21,7 +21,7 @@ h3{
 
 #titolo-istruzioni{
     text-align: center;
-    padding:1em;
+    padding: 8em 1em 2em 1em;
     font-family: Avenir, sans-serif;
     font-size: 1.5em;
     font-weight: 500;
@@ -58,10 +58,14 @@ h3{
 
     .macrobox-ar{
         flex-wrap: wrap;
+        
     }
     .image-model{
         width: 50%;
         height: auto;
+    }
+    #titolo-istruzioni{
+        font-size:1em;
     }
 }
 
@@ -74,10 +78,10 @@ h3{
     h3{font-size: 1em;}
 
     .image-responsive{
-        width: 60%;
+        width: 55%;
         height: auto;
         position: absolute;
-        top: 240px;
+        top: 280px;
         right: 0;
     }
     main {
@@ -85,7 +89,12 @@ h3{
         padding: 3em 0 3em 0;
     }
     #titolo-istruzioni{
-        /* padding:5em 1em 1em 1em; */
+        padding:3em 1em 1em 1em;
         margin: 20em 1em 1em 1em;
     }
+    .image-model{
+        height:230px;
+        width: auto;
+    }
+
 }
