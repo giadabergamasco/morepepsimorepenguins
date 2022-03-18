@@ -6,19 +6,19 @@ body{background-image: none;}
     background-image: url("background/bg-black.svg");
     background-repeat:no-repeat;
     background-position: top center; 
-    padding-bottom: 10em;
+    padding-bottom: 20em;
 }
 #pepsi-max-lime {
     background-image: url("background/bg-green.svg");
     background-repeat:no-repeat;
     background-position: top center; 
-    padding-bottom: 10em;
+    padding-bottom: 20em;
 }
 #pepsi-max-cafe {
     background-image: url("background/bg-brown.svg");
     background-repeat:no-repeat;
     background-position: top center; 
-    padding-bottom: 10em;
+    padding-bottom: 20em;
 }
 #pepsi{
     background-image: url("background/bg-blue.svg");
@@ -30,13 +30,13 @@ body{background-image: none;}
     background-image: url("background/bg-yellow.svg");
     background-repeat:no-repeat;
     background-position: top center; 
-    padding-bottom: 10em;
+    padding-bottom: 20em;
 }
 #pepsi-light{
     background-image: url("background/bg-gray.svg");
     background-repeat:no-repeat;
     background-position: top center; 
-    padding-bottom: 10em;
+    padding-bottom: 20em;
 }
 
 h1{
@@ -202,9 +202,7 @@ table tr td:last-child {
 }
 /* AND TABLE */
 
-main{
-    padding:2em 0em 10em 0em;
-}
+
 
 
 @media screen and (max-width: 600px) {
@@ -212,7 +210,7 @@ main{
         background-image: url("background/bg-black-mobile.svg");
         background-repeat:no-repeat;
         background-position: top center; 
-        padding-bottom: 20em;
+        padding-bottom: 10em;
     }
     #pepsi-max-lime {
         background-image: url("background/bg-green-mobile.svg");
@@ -316,8 +314,38 @@ main{
     div.column-left {order: 3;}
     div.column-right{order: 4;}
 
+    #pepsi-max {
+        background-image: url("background/bg-black-ipad.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    #pepsi-max-lime {
+        background-image: url("background/bg-green-ipad.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    #pepsi-max-cafe{
+        background-image: url("background/bg-brown-ipad.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
     #pepsi{
         background-image: url("background/bg-blue-ipad.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    #pepsi-twist{
+        background-image: url("background/bg-yellow-ipad.svg");
+        background-repeat:no-repeat;
+        background-position: top center; 
+        padding-bottom: 10em;
+    }
+    #pepsi-light{
+        background-image: url("background/bg-gray-ipad.svg");
         background-repeat:no-repeat;
         background-position: top center; 
         padding-bottom: 10em;

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1153.723" height="1621.761" viewBox="0 0 1153.723 1621.761">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.345" r="0.662" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fee25d"/>
+      <stop offset="0.453" stop-color="#fed40f"/>
+      <stop offset="1" stop-color="#c99b00"/>
+    </radialGradient>
+  </defs>
+  <path id="Unione_63" data-name="Unione 63" d="M0,1452.261v-333.7l.249-.22V0H1153.723V1453.14C1038.905,1553.925,823.8,1621.761,577.36,1621.761,330.207,1621.761,114.566,1553.531,0,1452.261Z" fill="url(#radial-gradient)"/>
+</svg>
