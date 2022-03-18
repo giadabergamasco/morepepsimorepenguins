@@ -96,8 +96,12 @@ section{
     main{
         padding: 22em 0em 10em 0em;
     }
+    .box-gif{
+        display: flex;
+        justify-content: center;
+    }
     #gif-responsive{
-        width: 80%;
+        width: 50%;
         height: auto;
         margin:0 3em;
     }
