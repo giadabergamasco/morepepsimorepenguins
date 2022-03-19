@@ -84,7 +84,8 @@ h4{
 .box-nutrizionale{
     display: flex;
     justify-content: space-around;
-    padding-top:10em;
+    padding:10em 0em 3em 0em;
+    /* padding-top:10em; */
 }
 .column-first{
     width: 40%;
@@ -349,6 +350,9 @@ table tr td:last-child {
         background-repeat:no-repeat;
         background-position: top center; 
         padding-bottom: 10em;
+    }
+    h1{
+        font-size: 2.5em;
     }
     .image-responsive{
         width: 100%;
