@@ -9,6 +9,10 @@
 
     <meta charset="UTF-8">
     <title>Pepsi</title>
+    <link rel="shortcut icon" href="logo/favicon.png" width="auto">
+    <link rel="icon" href="logo/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="logo/favicon.png">
+    
 </head>
 
 <body>
@@ -48,7 +52,21 @@
     <div class="container-campagna">
         <div>
             <h1>MORE PEPSI <br> MORE PENGUINS!</h1>
-            <button class="button button-outline">GUARDA IL VIDEO</button>
+            <div id="light">
+                <a class="boxclose" id="boxclose" onclick="lightbox_close();">x</a>
+                <video id="VisaChipCardVideo" width="800" controls>
+                    <source src="movies.mp4" type="video/mp4">
+                    <!--Browser does not support <video> tag -->
+                  </video>
+              </div>
+              
+              <div id="fade" onClick="lightbox_close();"></div>
+              
+              <div>
+                <a href="#" class="button button-outline" onclick="lightbox_open();">GUARDA IL VIDEO</a>
+              </div>
+
+            <!-- <button class="button button-outline">GUARDA IL VIDEO</button> -->
         </div>
         <div>
             <img class="image-responsive" src="images/pinguino-index.png" alt="Pinguino campagna" height="700px">
@@ -147,4 +165,29 @@
 <script> 
     function toggleMobileMenu(menu) {
     menu.classList.toggle('open');}
+
+
+window.document.onkeydown = function(e) {
+    if (!e) {
+      e = event;
+    }
+    if (e.keyCode == 27) {
+      lightbox_close();
+    }
+  }
+  
+  function lightbox_open() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    window.scrollTo(0, 0);
+    document.getElementById('light').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+    lightBoxVideo.play();
+  }
+  
+  function lightbox_close() {
+    var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+    document.getElementById('light').style.display = 'none';
+    document.getElementById('fade').style.display = 'none';
+    lightBoxVideo.pause();
+  }
 </script>

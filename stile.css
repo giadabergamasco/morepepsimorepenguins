@@ -42,8 +42,62 @@ h4{font-size: 1.2em}
     background-color: var(--trasparent); 
     border: 2px solid var(--white);
 }
-
 /* AND BUTTON */
+
+/* VIDEO */
+#fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+  }
+  
+  #light {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 800px;
+    max-height: 360px;
+    margin-left: -400px;
+    margin-top: -180px;
+    z-index: 1002;
+    overflow: visible;
+  }
+  
+  #boxclose {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 8px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+  }
+  
+
+  #fade:hover ~ #boxclose {
+    display:none;
+  }
+  
+  .test:hover ~ .test2 {
+    display: none;
+  }
+
+/* AND VIDEO */
 
 body {
     font-family: Montserrat, Avenir, sans-serif;
@@ -363,7 +417,16 @@ footer p{
     }
     .titolo-desktop{display: none;}
     .titolo-responsive{display: inline-block;}
-    
+
+    #VisaChipCardVideo{
+        width:100%
+    }
+    #light{
+        position: absolute;
+        margin-left: -200px;
+        margin-top: -100px;
+    }
+
 }
 /* se la finestra è 600px o è più piccola fai: */
 @media screen and (max-width: 600px) {
@@ -373,8 +436,7 @@ footer p{
         padding:0;
         margin:0.2em;}
     footer a {padding:0}
-    footer p {padding: 0.8em;}
-
+    footer p {padding: 0.8em;}   
 }
 
 /* se la finestra è 1024 o più piccola fai/ e se la finestra è 601 o è più grande */

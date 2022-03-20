@@ -128,7 +128,7 @@ main{
     .box-faq{
     padding:1em;
     margin-top:2em;
-    width:360px;
+    width:320px;
     height: 700px;
     border-radius: 15px;
     }
@@ -137,4 +137,8 @@ main{
         text-align: center;
         padding: 4em 2em 2em 2em;
     }
+   #logo-linea{
+     width:80%;
+     height:auto;
+   } 
 }
